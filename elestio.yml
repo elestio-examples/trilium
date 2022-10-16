@@ -6,9 +6,7 @@ ports:
     targetIP: "172.17.0.1"
     public: true
     path: "/"
-    isAuth: true
-    login: "root"
-    password: "random_password"
+    isAuth: false
 environments:
   - key: "ADMIN_PASSWORD"
     value: "random_password"
@@ -31,6 +29,6 @@ lifeCycleConfig:
   postRestoreCommand: "./scripts/postRestore.sh"
 webUI:
   - url: "https://[CI_CD_DOMAIN]"
-    label: "Jenkins Admin"
-    login: "root"
+    label: "Trilium Admin"
+    login: ""
     password: "[ADMIN_PASSWORD]"

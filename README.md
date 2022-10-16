@@ -13,6 +13,4 @@ Deploy Trilium server with CI/CD on Elestio
 You can can open Trilium UI here:
 
     URL: https://[CI_CD_DOMAIN]
-
-    Login: root
     password: [ADMIN_PASSWORD]
