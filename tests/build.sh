@@ -2,4 +2,4 @@
 
 cat package.json | grep -v electron > server-package.json
 
-docker build . --tag elestio/trilium:latest
+docker build . --tag elestio4test/trilium:latest
