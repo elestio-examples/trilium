@@ -36,6 +36,11 @@ Copy the .env file from tests folder to the project directory
 
 Edit the .env file with your own values.
 
+Create data folders with correct permissions
+
+    mkdir -p ./data
+    chown -R 1000:1000 ./data
+
 Run the project with the following command
 
     docker-compose up -d
@@ -46,7 +51,7 @@ You can access the Web UI at: `http://your-domain:28080`
 
 Here are some example snippets to help you get started creating a container.
 
-    version: "2.1"
+    version: "3.3"
 
     services:
 
