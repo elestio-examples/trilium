@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   trilium:
-    image: zadam/trilium
+    image: zadam/trilium:${SOFTWARE_VERSION_TAG}
     restart: always
     environment:
       - TRILIUM_DATA_DIR=/home/node/trilium-data
