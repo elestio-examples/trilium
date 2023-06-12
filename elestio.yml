@@ -10,7 +10,8 @@ ports:
 environments:
   - key: "ADMIN_PASSWORD"
     value: "random_password"
-
+  - key: "SOFTWARE_VERSION_TAG"
+    value: "latest"
 config:
   runTime: "dockerCompose"
   version: ""
