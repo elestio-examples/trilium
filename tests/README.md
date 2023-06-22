@@ -56,7 +56,7 @@ Here are some example snippets to help you get started creating a container.
     services:
 
         trilium:
-            image: elestio4test/trilium
+            image: elestio4test/trilium:${SOFTWARE_VERSION_TAG}
             restart: always
             environment:
                 - TRILIUM_DATA_DIR=/home/node/trilium-data
@@ -64,6 +64,12 @@ Here are some example snippets to help you get started creating a container.
                 - "172.17.0.1:28080:8080"
             volumes:
                 - ./data:/home/node/trilium-data
+
+### Environment variables
+
+|       Variable       | Value (example) |
+| :------------------: | :-------------: |
+| SOFTWARE_VERSION_TAG |     latest      |
 
 # Maintenance
 

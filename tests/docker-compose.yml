@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   trilium:
-    image: elestio4test/trilium
+    image: elestio4test/trilium:${SOFTWARE_VERSION_TAG}
     restart: always
     environment:
       - TRILIUM_DATA_DIR=/home/node/trilium-data
