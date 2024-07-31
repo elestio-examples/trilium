@@ -106,8 +106,8 @@ That's it! With these simple steps, you can easily backup and restore your data 
 
 # Links
 
-- <a target="_blank" href="https://github.com/zadam/trilium/wiki/">Traduora documentation</a>
+- <a target="_blank" href="https://github.com/zadam/trilium/wiki/">Trilium documentation</a>
 
-- <a target="_blank" href="https://github.com/zadam/trilium">Traduora Github repository</a>
+- <a target="_blank" href="https://github.com/zadam/trilium">Trilium Github repository</a>
 
-- <a target="_blank" href="https://github.com/elestio-examples/trilium">Elestio/traduora Github repository</a>
+- <a target="_blank" href="https://github.com/elestio-examples/trilium">Elestio/Trilium Github repository</a>
